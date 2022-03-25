@@ -22,3 +22,46 @@
         display: none;
     }
 }
+
+
+@media screen and ( max-width: 895px){
+    .owner-info{
+        padding-left:0;
+        /* margin: auto; */
+    }
+  .owner-info  .parent-pic{
+        margin:auto;
+        float: none;
+    }
+  .owner-dsc{
+    margin-top:30px;
+  }
+}
+
+@media screen and ( max-width: 767px){
+  .owner-dsc{
+    float:none;
+    padding: 0;
+    width: 100%;
+  }
+  .owner-dsc .desc-edit{
+    position: static;
+    padding:0 15px;
+  }
+  
+  .owner-info .parent-pic{
+    border:none;
+    width:100%;
+    padding-left:15px;
+    padding-right: 15px;
+    height: auto;
+  }
+   .owner-info .parent-pic .owner-pic{
+     width:100%;
+     position:static;
+     float:none;
+     margin-top:0;
+
+   }
+
+}

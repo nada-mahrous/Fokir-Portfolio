@@ -44,6 +44,10 @@ nav
 .nav-container{
     padding:15px 15px 0;
 }
+.navbar-flex
+{
+    width: 100%;
+}
 nav a
 {
     font-family: 'Roboto', sans-serif;
