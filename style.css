@@ -622,7 +622,7 @@ nav ul li a:hover
 {
     color: #777777;
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 10px;
+    font-size: 15px;
     margin-bottom: 30px;
     /* color: rgb(109, 108, 108); */
 }
@@ -742,18 +742,8 @@ nav ul li a:hover
 {
     background-color: #EC2403;
     text-decoration: none;
+    cursor: not-allowed;
 }
-/* .button
-{
-    color: white;
-    padding: 15px 25px;
-    border-radius: 5px;
-    background-color: transparent; 
-    border: solid white;
-    cursor: pointer;
-    transition: 0.3s;
-    font-weight: bold;
-} */
 .row
 {
     padding-bottom: 20px;
